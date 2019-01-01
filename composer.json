@@ -19,7 +19,7 @@
     ],
     "autoload": {
         "files": [
-            'helper.php'
+            "helper.php"
         ],
         "psr-4": {
             "Sinevia\\Users\\": "src"
