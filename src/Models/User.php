@@ -5,6 +5,7 @@ namespace Sinevia\Users\Models;
 class User extends \AdvancedModel {
 
     protected $table = 'snv_users_user';
+    protected $primaryKey = 'Id';
     public $timestamps = true;
     public $useUniqueId = true;
 
