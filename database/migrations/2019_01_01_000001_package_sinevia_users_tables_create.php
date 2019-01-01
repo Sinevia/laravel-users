@@ -8,9 +8,9 @@ class PackageSineviaUsersTablesCreate extends Illuminate\Database\Migrations\Mig
      * @return void
      */
     public function up() {
-        App\Models\Users\Role::tableCreate();
-        App\Models\Users\User::tableCreate();
-        App\Models\Users\UserRole::tableCreate();
+        Sinevia\Users\Models\Role::tableCreate();
+        Sinevia\Users\Models\User::tableCreate();
+        Sinevia\Users\Models\UserRole::tableCreate();
     }
 
     /**
@@ -19,9 +19,9 @@ class PackageSineviaUsersTablesCreate extends Illuminate\Database\Migrations\Mig
      * @return void
      */
     public function down() {
-        App\Models\Users\Role::tableDelete();
-        App\Models\Users\User::tableDelete();
-        App\Models\Users\UserRole::tableDelete();
+        Sinevia\Users\Models\Role::tableDelete();
+        Sinevia\Users\Models\User::tableDelete();
+        Sinevia\Users\Models\UserRole::tableDelete();
     }
 
 }
