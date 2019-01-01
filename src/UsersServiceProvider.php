@@ -1,6 +1,6 @@
 <?php
 
-namespace Sinevia\Settings;
+namespace Sinevia\Users;
 
 use Illuminate\Support\ServiceProvider;
 
