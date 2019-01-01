@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sinevia\\Settings\\UsersServiceProvider"
+                "Sinevia\\Users\\UsersServiceProvider"
             ]
         }
     },
