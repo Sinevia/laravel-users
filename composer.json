@@ -1,0 +1,38 @@
+{
+    "name": "sinevia/laravel-users",
+    "type": "library",
+    "description": "Users for Laravel",
+    "keywords": [
+        "Sinevia",
+        "Laravel",
+        "Users"
+    ],
+    "homepage": "https://github.com/Sinevia/laravel-users",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Milan Lesichkov",
+            "email": "lesichkovm@gmail.com",
+            "homepage": "http://lesichkov.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            'helper.php'
+        ],
+        "psr-4": {
+            "Sinevia\\Users\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sinevia\\Settings\\UsersServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
